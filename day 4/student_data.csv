@@ -1,0 +1,15 @@
+Name,Age,Class,Faculty,Address,Grade,Gender,Email,Phone
+Sandesh,15,XII,Arts,Butwal,A,Male,sandesh@school.edu.np,9834575496
+Saroj,20,XII,Arts,Lalitpur,C,Male,saroj@school.edu.np,9848487258
+Santosh,18,IX,Arts,Butwal,B,Male,santosh@school.edu.np,9881356261
+Shambhu,19,XII,Science,Dharan,B,Male,shambhu@school.edu.np,9888576996
+Prakash,20,XII,Management,Pokhara,C+,Male,prakash@school.edu.np,9895646646
+Bimal,21,IX,Education,Butwal,B,Male,bimal@school.edu.np,9843075797
+Ram,21,X,Education,Lalitpur,B+,Male,ram@school.edu.np,9818826272
+Shyam,20,XI,Education,Biratnagar,B+,Male,shyam@school.edu.np,9882169900
+Hari,18,XI,Education,Kathmandu,A,Male,hari@school.edu.np,9891289747
+Gita,19,XI,Education,Kathmandu,A+,Female,gita@school.edu.np,9890163813
+Rita,21,XI,Management,Dharan,C,Female,rita@school.edu.np,9868378916
+Sita,15,X,Management,Pokhara,A+,Female,sita@school.edu.np,9865775037
+Anita,20,XII,Education,Pokhara,C,Female,anita@school.edu.np,9814586880
+Krishna,19,X,Arts,Dharan,B+,Female,krishna@school.edu.np,9899778822

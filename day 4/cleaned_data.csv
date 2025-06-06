@@ -1,0 +1,15 @@
+Student_Name,Age,Class,Faculty,Address,Gender,Email,Phone,Age_Group,Age_Category,Identity,Gender_Encoded,Final_Grade_A+,Final_Grade_B,Final_Grade_C,Final_Grade_C+,Grade_B,Grade_C,Grade_D
+SANDESH,21,X,Science,Biratnagar,Male,sandesh@school.edu.np,9883693228,Adult,Young Adult,SANDESH <sandesh@school.edu.np>,1,True,False,False,False,False,True,False
+SAROJ,20,IX,Science,Bhaktapur,Male,saroj@school.edu.np,9854449472,Adult,Young Adult,SAROJ <saroj@school.edu.np>,1,False,False,False,False,False,False,True
+SANTOSH,20,X,Management,Lalitpur,Male,santosh@school.edu.np,9840939497,Adult,Young Adult,SANTOSH <santosh@school.edu.np>,1,False,False,True,False,False,True,False
+SHAMBHU,15,XII,Education,Pokhara,Male,shambhu@school.edu.np,9824465240,Teen,Teen,SHAMBHU <shambhu@school.edu.np>,1,False,False,False,True,True,False,False
+PRAKASH,15,X,Management,Bhaktapur,Male,prakash@school.edu.np,9891912195,Teen,Teen,PRAKASH <prakash@school.edu.np>,1,False,False,False,False,False,False,True
+BIMAL,17,IX,Management,Bhaktapur,Male,bimal@school.edu.np,9875648619,Teen,Teen,BIMAL <bimal@school.edu.np>,1,False,True,False,False,False,True,False
+RAM,18,X,Management,Bhaktapur,Male,ram@school.edu.np,9834722002,Teen,Teen,RAM <ram@school.edu.np>,1,False,False,True,False,True,False,False
+SHYAM,19,IX,Science,Pokhara,Male,shyam@school.edu.np,9832606286,Teen,Teen,SHYAM <shyam@school.edu.np>,1,True,False,False,False,False,False,True
+HARI,17,XI,Education,Dharan,Male,hari@school.edu.np,9872607344,Teen,Teen,HARI <hari@school.edu.np>,1,False,False,False,True,False,True,False
+GITA,18,IX,Education,Butwal,Female,gita@school.edu.np,9883414030,Teen,Teen,GITA <gita@school.edu.np>,0,False,False,False,True,False,False,True
+RITA,16,IX,Management,Biratnagar,Female,rita@school.edu.np,9876036580,Teen,Teen,RITA <rita@school.edu.np>,0,False,False,False,True,False,False,True
+SITA,21,XII,Science,Bhaktapur,Female,sita@school.edu.np,9838854765,Adult,Young Adult,SITA <sita@school.edu.np>,0,True,False,False,False,False,False,False
+ANITA,16,XI,Management,Pokhara,Female,anita@school.edu.np,9833800166,Teen,Teen,ANITA <anita@school.edu.np>,0,False,False,False,True,False,False,True
+KRISHNA,21,XII,Arts,Biratnagar,Female,krishna@school.edu.np,9895928153,Adult,Young Adult,KRISHNA <krishna@school.edu.np>,0,True,False,False,False,False,False,True
