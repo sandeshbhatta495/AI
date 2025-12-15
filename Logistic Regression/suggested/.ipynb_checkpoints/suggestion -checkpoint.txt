@@ -1,0 +1,10 @@
+# logistic Regression
+# ep graph 
+# cross entropy --> log graph
+# test() ground truth --> ccross entropy
+
+
+# KNN 
+# Tree
+# Random forest
+# SVM
