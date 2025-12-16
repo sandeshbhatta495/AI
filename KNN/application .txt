@@ -1,0 +1,9 @@
+Recommendation systems
+
+Handwritten digit recognition
+
+Image classification (small scale)
+
+Anomaly detection
+
+Medical diagnosis (small datasets)
