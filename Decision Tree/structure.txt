@@ -5,3 +5,18 @@ Root Node → Internal Nodes → Leaf Nodes
     Node    Node
      |        |
    Leaf     Leaf
+
+
+# Example for data 
+           Study
+          /     \
+      High       Low
+       |          |
+     Yes         No
+
+
+ [
+    ["High", "High", "Yes"],
+    ["Low",  "High", "No"],
+    ["High", "Low",  "Yes"],
+    ["Low",  "Low",  "No"]
