@@ -1,0 +1,4 @@
+|  |____
+|__|    |
+   |____|
+# sample structure how does features splits
