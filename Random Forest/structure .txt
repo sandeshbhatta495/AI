@@ -2,3 +2,31 @@
 |__|    |
    |____|
 # sample structure how does features splits
+
+
+# algorithmn 
+Algorithm Working Mechanism
+Step-by-Step Algorithm
+
+For t=1 to 𝑇
+T:
+
+Draw bootstrap sample
+
+Train decision tree:
+
+At each split:
+
+Randomly select 
+𝑚
+m features
+
+Choose best split
+
+Store all trees
+
+Predict:
+
+Classification → voting
+
+Regression → averaging
