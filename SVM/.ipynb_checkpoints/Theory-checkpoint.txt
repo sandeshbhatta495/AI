@@ -1,0 +1,7 @@
+Why Was the Kernel Term Introduced in SVM?
+Simple Explanation
+Support Vector Machines (SVMs) were first designed to separate data with a straight line (linear separation). But real-world data is often messy and can't be split by a simple line—think of data points forming circles or curves. The kernel was introduced to "trick" SVM into handling these non-linear patterns without making the math too complicated or slow.
+Detailed Theory
+SVMs aim to find the best hyperplane (a boundary) that separates classes of data while maximizing the margin (distance) between the boundary and the closest points (support vectors). In the original "hard-margin" SVM by Vladimir Vapnik and Alexey Chervonenkis in the 1960s, this worked only for linearly separable data. By the 1990s, with contributions from Vapnik and others, the "kernel trick" was added to extend SVM to non-linear cases. The idea is to implicitly map data into a higher-dimensional space where it becomes linearly separable, without actually computing the high-dimensional coordinates (which could be infinite or computationally expensive).
+Formulas
+The basic linear SVM decision function is:
