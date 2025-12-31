@@ -122,6 +122,159 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ---
 ---
 
+## 🔧 DATA PREPROCESSING & FEATURE ENGINEERING
+
+### Missing Data & Categorical Handling
+- [Handling missing-categorical-data](Handling%20missing-categorical-data) - Missing values and categorical data techniques
+- [Complete-case-analysis](Complete-case-analysis) - Analysis with complete cases only
+- [Missing Indicator](Missing%20Indicator) - Creating missing data indicators
+- [Handling mixed variables](Handling%20mixed%20variables) - Mixed data type handling
+
+### Feature Encoding
+- [One hot encoding](One%20hot%20encoding) - One-hot encoding for categorical variables
+- [ordinal-encoding](ordinal-encoding) - Ordinal encoding for ordered categories
+- [binning and binarization](binning%20and%20binarization) - Binning and binarization techniques
+
+### Scaling & Normalization
+- [Normalization](Normalization) - Min-Max scaling (0-1 range)
+- [Standradization](Standradization) - Standardization (Z-score, mean=0, std=1)
+- [Scaling choice](Scaling%20choice) - Comparing and choosing scaling methods
+- [Power Transformer](Power%20Transformer) - Yeo-Johnson and Box-Cox transformations
+
+### Feature Engineering Tools
+- [column-transformer](column-transformer) - ColumnTransformer for multi-step preprocessing
+- [function-transformer](function-transformer) - Custom function transformers
+- [preprocess library](preprocess%20library) - Scikit-learn preprocessing utilities
+- [library for preprocessing](library%20for%20preprocessing) - General preprocessing implementations
+
+### Outlier Detection & Removal
+- [outlier-detection-using-percentiles](outlier-detection-using-percentiles) - Percentile-based detection
+- [outlier-removal-using-iqr-method](outlier-removal-using-iqr-method) - IQR method for outlier removal
+
+---
+
+## 📊 EXPLORATORY DATA ANALYSIS & STATISTICS
+
+### Descriptive Analysis
+- [Descriptive Statics](Descriptive%20Statics) - Summary statistics and metrics
+- [Univarient Analysis](Univarient%20Analysis) - Single-variable distributions and analysis
+- [Bivarient Analysis](Bivarient%20Analysis) - Two-variable relationships and correlations
+- [Pandas profiling](Pandas%20profiling) - Automated data profiling and EDA reports
+
+### Mathematical Foundations
+- [Mathmatics in ML](Mathmatics%20in%20ML) - Mathematical concepts underlying ML algorithms
+- [Handling Date and Time](Handling%20Date%20and%20Time) - Temporal data operations and time series
+
+---
+
+## 🎯 SUPERVISED LEARNING
+
+### Regression (Predicting Continuous Values)
+- [Linear Regreesion](Linear%20Regreesion) - Simple and multiple linear regression
+- [Linear regression ch 1](Linear%20regression%20ch%201) - Comprehensive linear regression fundamentals
+- **Key Concepts:** 
+  - OLS (Ordinary Least Squares)
+  - Feature scaling importance
+  - Evaluation: R², RMSE, MAE, MSE
+  - Interpreting coefficients
+
+### Classification (Predicting Categories)
+- [Logistic Regression](Logistic%20Regression) - Binary and multiclass classification
+- [Decision Tree](Decision%20Tree) - Tree-based classification with entropy and information gain
+- [KNN](KNN) - K-Nearest Neighbors algorithm
+- [SVM](SVM) - Support Vector Machines for classification
+- [Random Forest](Random%20Forest) - Ensemble classification with random forests
+
+**Key Concepts:**
+- Binary vs. Multiclass classification
+- Decision boundaries
+- Evaluation Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+- Class imbalance handling
+- Confusion matrix interpretation
+
+**Project Applications:**
+- [Titanic Survial prdiction](Titanic%20Survial%20prdiction) - Binary classification (survived/not survived)
+- [Breast Cancer Detection](Breast%20Cancer%20Detection) - Medical classification
+- [Placement prediction Project](Placement%20prediction%20Project) - Student placement classification
+
+### Regression Project
+- [Housing price detection](Housing%20price%20detection) - House price prediction (continuous output)
+
+---
+
+## 🔄 UNSUPERVISED LEARNING
+
+### Dimensionality Reduction
+- [PCA](PCA) - Principal Component Analysis
+  - Feature reduction
+  - Variance preservation
+  - Visualization of high-dimensional data
+  - Handling multicollinearity
+
+**Unsupervised Concepts (Coming Soon):**
+- Clustering (K-Means, Hierarchical, DBSCAN)
+- Anomaly detection
+- Association rule mining
+
+---
+
+## ⚙️ OPTIMIZATION & HYPERPARAMETER TUNING
+
+### Gradient-Based Optimization
+- [Gradient Descent](Gradient%20Descent) - Fundamental optimization algorithm
+  - Batch gradient descent
+  - Stochastic gradient descent (SGD)
+  - Mini-batch gradient descent
+  - Learning rate selection
+  - Convergence analysis
+  - Custom optimization implementations
+  - **Subdirectory:** Creating own Class & Methods
+
+### Model Optimization Tools
+- [Sklearn pipelines](Sklearn%20pipelines) - Building optimized ML pipelines
+- [Scaling choice](Scaling%20choice) - Choosing optimal scaling methods
+- [column-transformer](column-transformer) - Optimized preprocessing pipelines
+
+**Hyperparameter Tuning Concepts:**
+- Grid search and random search
+- Cross-validation for tuning
+- Early stopping
+- Learning rate scheduling
+- Regularization (L1, L2)
+
+---
+
+## 🚀 ADVANCED ALGORITHMS & TECHNIQUES
+
+### Ensemble Methods
+- [Random Forest](Random%20Forest) - Advanced ensemble classification and regression
+  - Bagging
+  - Feature importance from ensembles
+  - Out-of-bag error estimation
+  - Parallel tree building
+
+### Support Vector Methods
+- [SVM](SVM) - Support Vector Machines
+  - Kernel methods
+  - Soft margin classification
+  - One-vs-One and One-vs-Rest strategies
+  - SVM regression
+
+### Tree-Based Advanced Methods
+- [Decision Tree](Decision%20Tree) - Advanced tree concepts
+  - Information gain vs Gini impurity
+  - Tree pruning
+  - Handling class imbalance in trees
+  - Subtrees: Regression tree, Manual dataset handling, Feature selection
+
+**Coming Soon:**
+- XGBoost and LightGBM
+- Neural Networks and Deep Learning
+- Stacking and blending
+- Anomaly detection algorithms
+
+---
+
 ## 🎯 Key Projects & Learning Outcomes
 
 ### 1. **Titanic Survival Prediction** 🚢
@@ -224,21 +377,46 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ## 📈 Learning Progression Path
 
 ```
-Basics (Python) 
+PHASE 1: FOUNDATIONS
+├─ Basics (Python fundamentals)
+├─ NumPy & Pandas (Data structures)
+└─ Data I/O (CSV, JSON, API, Web Scraping)
     ↓
-NumPy & Pandas (Data Structures)
+PHASE 2: EXPLORATORY DATA ANALYSIS
+├─ Descriptive Statistics
+├─ Univariate & Bivariate Analysis
+├─ Data Visualization
+└─ Mathematical Foundations in ML
     ↓
-EDA & Statistics (Descriptive Analysis)
+PHASE 3: DATA PREPROCESSING & FEATURE ENGINEERING
+├─ Missing Data Handling
+├─ Categorical Encoding
+├─ Scaling & Normalization
+├─ Outlier Detection
+└─ Feature Engineering Pipelines
     ↓
-Data Preprocessing (Cleaning, Encoding, Scaling)
+PHASE 4: SUPERVISED LEARNING - REGRESSION
+├─ Linear Regression
+├─ Gradient Descent Optimization
+└─ Regression Projects (Housing Prices)
     ↓
-Regression Models (Linear Regression, Gradient Descent)
+PHASE 5: SUPERVISED LEARNING - CLASSIFICATION
+├─ Logistic Regression
+├─ Decision Trees
+├─ K-Nearest Neighbors
+├─ Support Vector Machines
+├─ Random Forests (Ensembles)
+└─ Classification Projects (Titanic, Cancer, Placement)
     ↓
-Classification Models (Logistic, Decision Trees, KNN, SVM, Random Forest)
+PHASE 6: UNSUPERVISED LEARNING
+├─ Dimensionality Reduction (PCA)
+└─ Clustering & Anomaly Detection (Coming Soon)
     ↓
-Real-World Projects (Titanic, Housing, Cancer Detection, Placement)
-    ↓
-Advanced Topics (PCA, Ensemble Methods, Optimization)
+PHASE 7: ADVANCED TECHNIQUES
+├─ Hyperparameter Optimization
+├─ Advanced Ensemble Methods
+├─ Advanced Tree Methods (XGBoost, etc.)
+└─ Deep Learning & Neural Networks (Coming Soon)
 ```
 
 ---
@@ -322,38 +500,52 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter ipython
 - NumPy arrays and operations
 - Pandas DataFrames and Series
 - File I/O (CSV, JSON)
+- APIs and Web Scraping basics
 
-### **Phase 2: Data Analysis** (Weeks 3-4)
+### **Phase 2: Exploratory Data Analysis & Statistics** (Weeks 3-4)
 - Descriptive statistics
 - Univariate analysis
 - Bivariate analysis
-- Data visualization
+- Data visualization (Matplotlib, Seaborn, Plotly)
+- Statistical hypothesis testing
+- Mathematical foundations in ML
 
-### **Phase 3: Data Preprocessing** (Weeks 5-6)
-- Missing data handling
+### **Phase 3: Data Preprocessing & Feature Engineering** (Weeks 5-6)
+- Missing data handling and imputation
 - Categorical encoding (one-hot, ordinal)
+- Binning and binarization
 - Scaling (normalization, standardization)
-- Dimensionality reduction (PCA)
+- Power transformations
 - Outlier detection and removal
+- Feature engineering pipelines
+- ColumnTransformer and custom transformers
 
-### **Phase 4: Machine Learning - Regression** (Weeks 7-8)
+### **Phase 4: Supervised Learning - Regression** (Weeks 7-8)
 - Linear regression fundamentals
 - Gradient descent optimization
 - Feature scaling and selection
-- Model evaluation (R², RMSE, MAE)
+- Model evaluation (R², RMSE, MAE, MSE)
+- Hyperparameter tuning for regression
+- Real projects: Housing price prediction
 
-### **Phase 5: Machine Learning - Classification** (Weeks 9-11)
-- Logistic regression
-- Decision trees (entropy, information gain)
+### **Phase 5: Supervised Learning - Classification** (Weeks 9-11)
+- Logistic regression (binary & multiclass)
+- Decision trees (entropy, information gain, gini)
 - K-Nearest Neighbors
 - Support Vector Machines
 - Random forests and ensemble methods
+- Evaluation metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC)
+- Cross-validation strategies
+- Hyperparameter tuning for classification
+- Real projects: Titanic, Cancer Detection, Placement Prediction
 
-### **Phase 6: Real-World Projects** (Weeks 12+)
-- Titanic survival prediction
-- Breast cancer detection
-- Housing price prediction
-- Student placement prediction
+### **Phase 6: Unsupervised Learning & Advanced Topics** (Weeks 12+)
+- Dimensionality reduction (PCA)
+- Advanced ensemble methods
+- Clustering algorithms (coming soon)
+- Anomaly detection (coming soon)
+- XGBoost and LightGBM (coming soon)
+- Deep Learning and Neural Networks (coming soon)
 - Student performance analysis
 
 ---
@@ -362,63 +554,107 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter ipython
 
 **Learning Journey in AI/ML & Data Science**
 - **Status:** 🚀 Active Development
-- **Last Updated:** December 26, 2025
+- **Last Updated:** December 31, 2025
 - **Focus:** Comprehensive AI/ML from fundamentals to practical applications
 
 ---
 
-## ✅ Complete Topic Checklist
+## ✅ Complete Topic Checklist by Phase
 
-### ✓ Fundamentals
+### ✓ Phase 1: Foundations
 - [x] Python basics and data types
 - [x] NumPy operations and broadcasting
 - [x] Pandas DataFrames and Series
-- [x] File I/O operations
-
-### ✓ Statistics & Analysis
-- [x] Descriptive statistics
-- [x] Univariate and bivariate analysis
-- [x] Data visualization (Matplotlib, Seaborn)
+- [x] File I/O (CSV, JSON)
+- [x] APIs and Web Scraping
 - [x] Date and time handling
-- [x] Correlation and causation
 
-### ✓ Data Preprocessing
+### ✓ Phase 2: Exploratory Data Analysis & Statistics
+- [x] Descriptive statistics
+- [x] Univariate analysis
+- [x] Bivariate analysis
+- [x] Data visualization (Matplotlib, Seaborn)
+- [x] Statistical hypothesis testing
+- [x] Correlation analysis
+- [x] Mathematical foundations in ML
+
+### ✓ Phase 3: Data Preprocessing & Feature Engineering
 - [x] Missing value imputation
-- [x] Categorical encoding (one-hot, ordinal)
+- [x] Categorical encoding (One-hot, Ordinal)
 - [x] Binning and binarization
-- [x] Scaling (normalization, standardization)
-- [x] Power transformations
-- [x] Outlier detection and removal
-- [x] Feature selection and importance
-- [x] Dimensionality reduction (PCA)
+- [x] Outlier detection and removal (Percentile, IQR)
+- [x] Scaling and Normalization
+- [x] Standardization (Z-score)
+- [x] Power transformations (Yeo-Johnson, Box-Cox)
+- [x] Feature engineering pipelines
+- [x] ColumnTransformer and FunctionTransformer
+- [x] Missing data indicators
+- [x] Complete case analysis
 
-### ✓ Machine Learning - Regression
-- [x] Linear regression
-- [x] Gradient descent
+### ✓ Phase 4: Supervised Learning - Regression
+- [x] Linear regression fundamentals
+- [x] Simple and multiple linear regression
 - [x] Feature scaling for regression
-- [x] Evaluation metrics (R², RMSE, MAE)
-- [x] Hyperparameter tuning
+- [x] Gradient descent optimization
+- [x] Batch, Stochastic, Mini-batch GD
+- [x] Learning rate selection
+- [x] Evaluation metrics (R², RMSE, MAE, MSE)
+- [x] Regularization (L1, L2)
+- [x] Real projects: Housing price prediction
 
-### ✓ Machine Learning - Classification
-- [x] Logistic regression
-- [x] Decision trees (entropy, gain, gini)
+### ✓ Phase 5: Supervised Learning - Classification
+- [x] Logistic regression (binary & multiclass)
+- [x] Decision trees
+- [x] Entropy and information gain
+- [x] Gini impurity
+- [x] Tree pruning and optimization
 - [x] K-Nearest Neighbors (KNN)
 - [x] Support Vector Machines (SVM)
-- [x] Random forests and ensembles
-- [x] Evaluation metrics (Accuracy, Precision, Recall, F1-Score)
-
-### ✓ Model Selection & Validation
-- [x] Train-test split
+- [x] Kernel methods
+- [x] Random Forests (ensemble methods)
+- [x] Bagging and feature importance
+- [x] Evaluation metrics:
+  - [x] Accuracy, Precision, Recall, F1-Score
+  - [x] Confusion matrix
+  - [x] ROC-AUC curve
 - [x] Cross-validation
 - [x] Hyperparameter tuning
-- [x] Model comparison
+- [x] Class imbalance handling
+- [x] Real projects:
+  - [x] Titanic survival prediction
+  - [x] Breast cancer detection
+  - [x] Student placement prediction
 
-### ✓ Projects
-- [x] Titanic survival prediction
-- [x] Breast cancer detection
-- [x] Housing price prediction
-- [x] Student placement prediction
-- [x] Student performance analysis
+### ✓ Phase 6: Unsupervised Learning
+- [x] Dimensionality Reduction (PCA)
+  - [x] Variance preservation
+  - [x] Visualization of high-dimensional data
+  - [x] Handling multicollinearity
+- [ ] Clustering (K-Means, Hierarchical, DBSCAN) - Coming Soon
+- [ ] Anomaly Detection - Coming Soon
+- [ ] Association Rules - Coming Soon
+
+### ✓ Phase 7: Advanced Techniques & Optimization
+- [x] Gradient descent advanced techniques
+- [x] Custom optimization classes
+- [x] ML Pipelines with scikit-learn
+- [x] Hyperparameter optimization
+- [x] Grid search and random search
+- [x] Early stopping strategies
+- [x] Advanced ensemble methods
+- [x] Feature importance analysis
+- [ ] XGBoost and LightGBM - Coming Soon
+- [ ] Neural Networks & Deep Learning - Coming Soon
+- [ ] Stacking and Blending - Coming Soon
+
+### ✓ Practical Implementation
+- [x] Building ML pipelines
+- [x] Custom transformers
+- [x] Model evaluation and validation
+- [x] Cross-validation strategies
+- [x] Submission file generation
+- [x] End-to-end projects
+- [x] Data science workflow implementation
 
 ---
 
