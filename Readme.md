@@ -4,55 +4,40 @@
 
 This repository documents a comprehensive, structured learning journey in **Artificial Intelligence, Machine Learning, and Data Science**. It progresses from fundamental Python concepts through advanced machine learning algorithms to real-world projects, with organized folders covering key topics in data preprocessing, statistical analysis, machine learning algorithms, and practical applications.
 
-**Status:** 🚀 Active Development | **Last Updated:** December 26, 2025
+**Status:** 🚀 Active Development | **Last Updated:** January 2, 2026
 
 ---
 
 ## 📁 Complete Folder Structure
 
-### 🎯 **Core Learning Modules**
+### 🎯 **01_FOUNDATIONS - Core Learning Modules**
 
 | Folder | Description |
 |--------|-------------|
-| [Basics](Basics) | Python fundamentals and basic concepts |
-| [numpy](numpy) | NumPy array operations and numerical computing |
-| [numpy features](numpy%20features) | Advanced NumPy features and techniques |
-| [pandas](pandas) | Pandas DataFrames, Series, and data manipulation |
-| [Working with CSV File](Working%20with%20CSV%20File) | Reading, writing, and processing CSV files |
-| [Working with Json](Working%20with%20Json) | JSON data handling and parsing |
-| [Handling Date and Time](Handling%20Date%20and%20Time) | Date/time operations and time series analysis |
+| [01a_PYTHON_BASICS](01_FOUNDATIONS/01a_PYTHON_BASICS) | Python fundamentals and basic concepts |
+| [01b_NUMPY](01_FOUNDATIONS/01b_NUMPY) | NumPy array operations, features, and numerical computing |
+| [01c_PANDAS](01_FOUNDATIONS/01c_PANDAS) | Pandas DataFrames, Series, and data manipulation |
+| [01d_WORKING_WITH_DATA](01_FOUNDATIONS/01d_WORKING_WITH_DATA) | CSV, JSON, APIs, Web Scraping, Date/Time operations |
 
-### 📊 **Data Preprocessing & Feature Engineering**
+### 📊 **03_DATA_PREPROCESSING_AND_ENGINEERING**
 
 | Folder | Description |
 |--------|-------------|
-| [Handling missing-categorical-data](Handling%20missing-categorical-data) | Techniques for handling missing values and categorical data |
-| [Handling mixed variables](Handling%20mixed%20variables) | Working with mixed data types and heterogeneous datasets |
-| [Complete-case-analysis](Complete-case-analysis) | Analysis methods for complete cases |
-| [column-transformer](column-transformer) | ColumnTransformer for preprocessing pipelines |
-| [function-transformer](function-transformer) | Custom function transformers for data processing |
-| [preprocess library](preprocess%20library) | Scikit-learn preprocessing utilities |
-| [library for preprocessing](library%20for%20preprocessing) | General preprocessing library implementations |
-| [Missing Indicator](Missing%20Indicator) | Creating indicators for missing data |
+| [03a_MISSING_DATA_HANDLING](03_DATA_PREPROCESSING_AND_ENGINEERING/03a_MISSING_DATA_HANDLING) | Missing values, categorical data, imputation, mixed variables, complete case analysis, missing indicators |
+| [03b_CATEGORICAL_ENCODING](03_DATA_PREPROCESSING_AND_ENGINEERING/03b_CATEGORICAL_ENCODING) | One-hot encoding, Ordinal encoding, Binning, Binarization |
+| [03c_SCALING_AND_NORMALIZATION](03_DATA_PREPROCESSING_AND_ENGINEERING/03c_SCALING_AND_NORMALIZATION) | Normalization, Standardization, Scaling choice, Power Transformations |
+| [03d_OUTLIER_DETECTION](03_DATA_PREPROCESSING_AND_ENGINEERING/03d_OUTLIER_DETECTION) | Percentile-based detection, IQR method |
+| [03e_FEATURE_ENGINEERING](03_DATA_PREPROCESSING_AND_ENGINEERING/03e_FEATURE_ENGINEERING) | Feature Engineering, ColumnTransformer, FunctionTransformer, Preprocessing libraries |
 
-### 🔄 **Scaling & Transformation**
+### 📈 **02_EXPLORATORY_DATA_ANALYSIS**
 
 | Folder | Description |
 |--------|-------------|
-| [Normalization](Normalization) | Min-Max scaling and normalization techniques |
-| [Standradization](Standradization) | Standardization and Z-score normalization |
-| [Scaling choice](Scaling%20choice) | Comparing scaling methods and choosing appropriate ones |
-| [Power Transformer](Power%20Transformer) | Yeo-Johnson and Box-Cox power transformations |
-
-### 📈 **Exploratory Data Analysis & Statistics**
-
-| Folder | Description |
-|--------|-------------|
-| [Descriptive Statics](Descriptive%20Statics) | Descriptive statistics and summary metrics |
-| [Univarient Analysis](Univarient%20Analysis) | Single-variable analysis and distributions |
-| [Bivarient Analysis](Bivarient%20Analysis) | Two-variable relationships and correlations |
-| [Pandas profiling](Pandas%20profiling) | Automated data profiling and reporting |
-| [Mathmatics in ML](Mathmatics%20in%20ML) | Mathematical foundations for ML algorithms |
+| [02a_DESCRIPTIVE_STATISTICS](02_EXPLORATORY_DATA_ANALYSIS/02a_DESCRIPTIVE_STATISTICS) | Descriptive statistics and summary metrics |
+| [02b_UNIVARIATE_ANALYSIS](02_EXPLORATORY_DATA_ANALYSIS/02b_UNIVARIATE_ANALYSIS) | Single-variable analysis and distributions |
+| [02c_BIVARIATE_ANALYSIS](02_EXPLORATORY_DATA_ANALYSIS/02c_BIVARIATE_ANALYSIS) | Two-variable relationships and correlations |
+| [02d_DATA_VISUALIZATION](02_EXPLORATORY_DATA_ANALYSIS/02d_DATA_VISUALIZATION) | Data visualization techniques |
+| [02e_PANDAS_PROFILING](02_EXPLORATORY_DATA_ANALYSIS/02e_PANDAS_PROFILING) | Automated data profiling and reporting |
 
 ### 🔍 **Encoding & Dimensionality Reduction**
 
