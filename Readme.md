@@ -39,70 +39,39 @@ This repository documents a comprehensive, structured learning journey in **Arti
 | [02d_DATA_VISUALIZATION](02_EXPLORATORY_DATA_ANALYSIS/02d_DATA_VISUALIZATION) | Data visualization techniques |
 | [02e_PANDAS_PROFILING](02_EXPLORATORY_DATA_ANALYSIS/02e_PANDAS_PROFILING) | Automated data profiling and reporting |
 
-### 🔍 **Encoding & Dimensionality Reduction**
+### 🔍 **04_SUPERVISED_LEARNING & 05_UNSUPERVISED_LEARNING**
 
 | Folder | Description |
 |--------|-------------|
-| [One hot encoding](One%20hot%20encoding) | One-hot encoding for categorical variables |
-| [ordinal-encoding](ordinal-encoding) | Ordinal encoding for ordered categories |
-| [binning and binarization](binning%20and%20binarization) | Binning and binarization techniques |
-| [PCA](PCA) | Principal Component Analysis for dimensionality reduction |
+| [04a_REGRESSION](04_SUPERVISED_LEARNING/04a_REGRESSION) | Linear Regression, Gradient Descent, Advanced Regression |
+| [04b_CLASSIFICATION](04_SUPERVISED_LEARNING/04b_CLASSIFICATION) | Logistic Regression, Decision Trees, KNN, SVM, Ensemble Methods |
+| [05a_DIMENSIONALITY_REDUCTION](05_UNSUPERVISED_LEARNING/05a_DIMENSIONALITY_REDUCTION) | PCA and feature reduction techniques |
+| [05b_CLUSTERING](05_UNSUPERVISED_LEARNING/05b_CLUSTERING) | Clustering algorithms (coming soon) |
+| [05c_ANOMALY_DETECTION](05_UNSUPERVISED_LEARNING/05c_ANOMALY_DETECTION) | Anomaly detection (coming soon) |
 
-### 🎯 **Outlier Detection & Removal**
-
-| Folder | Description |
-|--------|-------------|
-| [outlier-detection-using-percentiles](outlier-detection-using-percentiles) | Percentile-based outlier detection |
-| [outlier-removal-using-iqr-method](outlier-removal-using-iqr-method) | IQR method for outlier removal |
-
-### 🤖 **Machine Learning Algorithms**
-
-#### Regression Models
-| Folder | Description |
-|--------|-------------|
-| [Linear Regreesion](Linear%20Regreesion) | Simple and multiple linear regression |
-| [Linear regression ch 1](Linear%20regression%20ch%201) | Linear regression chapter 1 - fundamentals |
-| [Gradient Descent](Gradient%20Descent) | Gradient descent optimization algorithm |
-
-#### Classification Models
-| Folder | Description |
-|--------|-------------|
-| [Logistic Regression](Logistic%20Regression) | Logistic regression for binary/multiclass classification |
-| [Decision Tree](Decision%20Tree) | Decision tree algorithms and splitting criteria |
-| [KNN](KNN) | K-Nearest Neighbors algorithm |
-| [SVM](SVM) | Support Vector Machines |
-| [Random Forest](Random%20Forest) | Ensemble random forest models |
-
-### 📚 **Libraries & Tools**
+### ⚙️ **06_OPTIMIZATION_AND_PIPELINES**
 
 | Folder | Description |
 |--------|-------------|
-| [Scikit learn](Scikit%20learn) | Scikit-learn library tutorials and implementations |
-| [Sklearn pipelines](Sklearn%20pipelines) | Building ML pipelines with scikit-learn |
-| [library](library) | General library implementations and utilities |
-| [Web Sraping](Web%20Sraping) | Web scraping techniques and tools |
-| [Working with API](Working%20with%20API) | API integration and data fetching |
+| [06a_GRADIENT_DESCENT](06_OPTIMIZATION_AND_PIPELINES/06a_GRADIENT_DESCENT) | Gradient descent optimization |
+| [06b_ML_PIPELINES](06_OPTIMIZATION_AND_PIPELINES/06b_ML_PIPELINES) | Building ML pipelines with scikit-learn |
+| [06c_HYPERPARAMETER_TUNING](06_OPTIMIZATION_AND_PIPELINES/06c_HYPERPARAMETER_TUNING) | Hyperparameter tuning and regularization |
 
-### 🎓 **Projects & Applications**
+### 🎓 **07_PROJECTS**
 
 | Folder | Description |
 |--------|-------------|
-| [First project data](First%20project%20data) | First ML project - Titanic survival prediction |
-| [Titanic Data (previous)](Titanic%20Data%20%28previous%29) | Previous Titanic dataset explorations |
-| [Titanic Survial prdiction](Titanic%20Survial%20prdiction) | Titanic survival prediction project |
-| [Titanic Survival projects](Titanic%20Survival%20projects) | Multiple Titanic survival project variations |
-| [Breast Cancer Detection](Breast%20Cancer%20Detection) | Medical ML - Breast cancer classification |
-| [Housing price detection](Housing%20price%20detection) | House price prediction regression project |
-| [Placement prediction Project](Placement%20prediction%20Project) | Student placement prediction |
-| [student performance project](student%20performance%20project) | Student performance analysis |
-| [Refence project (kaggle)](Refence%20project%20%28kaggle%29) | Reference Kaggle competition projects |
+| [07a_CLASSIFICATION_PROJECTS](07_PROJECTS/07a_CLASSIFICATION_PROJECTS) | Titanic, Breast Cancer, Placement, Digit Recognizer, Diabetes Detection |
+| [07b_REGRESSION_PROJECTS](07_PROJECTS/07b_REGRESSION_PROJECTS) | Housing price prediction and other regression projects |
+| [07c_ANALYSIS_PROJECTS](07_PROJECTS/07c_ANALYSIS_PROJECTS) | Student performance analysis and other analysis projects |
 
-### 📖 **Documentation & Reference**
+### 📚 **08_MATHEMATICS_AND_THEORY | 09_LIBRARIES_AND_TOOLS | 10_REFERENCE_AND_DOCUMENTATION**
 
 | Folder | Description |
 |--------|-------------|
-| [documenation](documenation) | AI/ML engineer documentation and guides |
-| [noteboook work](noteboook%20work) | Experimental notebook work and studies |
+| [08_MATHEMATICS_AND_THEORY](08_MATHEMATICS_AND_THEORY) | Mathematical foundations, coursework, theory |
+| [09_LIBRARIES_AND_TOOLS](09_LIBRARIES_AND_TOOLS) | Scikit-learn, library utilities, tools |
+| [10_REFERENCE_AND_DOCUMENTATION](10_REFERENCE_AND_DOCUMENTATION) | Documentation, notebook work, reference projects |
 
 ---
 ---
@@ -263,7 +232,7 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ## 🎯 Key Projects & Learning Outcomes
 
 ### 1. **Titanic Survival Prediction** 🚢
-**Location:** [First project data](First%20project%20data), [Titanic Survial prdiction](Titanic%20Survial%20prdiction)
+**Location:** [07_PROJECTS/07a_CLASSIFICATION_PROJECTS/Titanic_Survival_Prediction](07_PROJECTS/07a_CLASSIFICATION_PROJECTS)
 
 **Topics Covered:**
 - Data loading and exploratory data analysis (EDA)
@@ -280,7 +249,7 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ---
 
 ### 2. **Breast Cancer Detection** 🏥
-**Location:** [Breast Cancer Detection](Breast%20Cancer%20Detection)
+**Location:** [07_PROJECTS/07a_CLASSIFICATION_PROJECTS/Breast_Cancer_Detection](07_PROJECTS/07a_CLASSIFICATION_PROJECTS)
 
 **Topics Covered:**
 - Medical image classification
@@ -295,7 +264,7 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ---
 
 ### 3. **Housing Price Detection** 🏠
-**Location:** [Housing price detection](Housing%20price%20detection)
+**Location:** [07_PROJECTS/07b_REGRESSION_PROJECTS/Housing_Price_Detection](07_PROJECTS/07b_REGRESSION_PROJECTS)
 
 **Topics Covered:**
 - Regression modeling
@@ -309,7 +278,7 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ---
 
 ### 4. **Student Placement Prediction** 🎓
-**Location:** [Placement prediction Project](Placement%20prediction%20Project)
+**Location:** [07_PROJECTS/07a_CLASSIFICATION_PROJECTS/Placement_Prediction_Project](07_PROJECTS/07a_CLASSIFICATION_PROJECTS)
 
 **Topics Covered:**
 - Student performance and placement factors
@@ -321,7 +290,7 @@ This repository documents a comprehensive, structured learning journey in **Arti
 ---
 
 ### 5. **Student Performance Analysis** 📊
-**Location:** [student performance project](student%20performance%20project)
+**Location:** [07_PROJECTS/07c_ANALYSIS_PROJECTS/Student_Performance_Project](07_PROJECTS/07c_ANALYSIS_PROJECTS)
 
 **Topics:**
 - Demographic analysis
@@ -450,12 +419,12 @@ PHASE 7: ADVANCED TECHNIQUES
 
 | Project | Location | Type | Purpose |
 |---------|----------|------|---------|
-| Titanic | First project data, Titanic folders | Classification | Survival prediction |
-| Breast Cancer | Breast Cancer Detection | Classification | Medical ML |
-| Housing Prices | Housing price detection | Regression | Price prediction |
-| Student Performance | student performance project | Statistics | Performance analysis |
-| Placement | Placement prediction Project | Classification | Job placement prediction |
-| Various | Handling missing-categorical-data, Complete-case-analysis | Various | Data cleaning practice |
+| Titanic | 07_PROJECTS/07a_CLASSIFICATION_PROJECTS | Classification | Survival prediction |
+| Breast Cancer | 07_PROJECTS/07a_CLASSIFICATION_PROJECTS | Classification | Medical ML |
+| Housing Prices | 07_PROJECTS/07b_REGRESSION_PROJECTS | Regression | Price prediction |
+| Student Performance | 07_PROJECTS/07c_ANALYSIS_PROJECTS | Statistics | Performance analysis |
+| Placement | 07_PROJECTS/07a_CLASSIFICATION_PROJECTS | Classification | Job placement prediction |
+| Various | 03_DATA_PREPROCESSING_AND_ENGINEERING | Various | Data cleaning practice |
 
 ---
 
@@ -467,14 +436,14 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter ipython
 ```
 
 ### Recommended Learning Order
-1. Start with [Basics](Basics) and [numpy](numpy)
-2. Move to [pandas](pandas) and [Handling Date and Time](Handling%20Date%20and%20Time)
-3. Explore [Descriptive Statics](Descriptive%20Statics) and [Univarient Analysis](Univarient%20Analysis)
-4. Learn preprocessing: [Handling missing-categorical-data](Handling%20missing-categorical-data), [Normalization](Normalization)
-5. Study ML algorithms: [Linear Regreesion](Linear%20Regreesion), [Logistic Regression](Logistic%20Regression)
-6. Explore [Decision Tree](Decision%20Tree), [KNN](KNN), [SVM](SVM), [Random Forest](Random%20Forest)
-7. Work on projects: [Titanic Survial prdiction](Titanic%20Survial%20prdiction), [Breast Cancer Detection](Breast%20Cancer%20Detection)
-8. Study advanced topics: [PCA](PCA), [Gradient Descent](Gradient%20Descent), [Sklearn pipelines](Sklearn%20pipelines)
+1. Start with [01a_PYTHON_BASICS](01_FOUNDATIONS/01a_PYTHON_BASICS) and [01b_NUMPY](01_FOUNDATIONS/01b_NUMPY)
+2. Move to [01c_PANDAS](01_FOUNDATIONS/01c_PANDAS) and [01d_WORKING_WITH_DATA](01_FOUNDATIONS/01d_WORKING_WITH_DATA)
+3. Explore [02a_DESCRIPTIVE_STATISTICS](02_EXPLORATORY_DATA_ANALYSIS/02a_DESCRIPTIVE_STATISTICS) and [02b_UNIVARIATE_ANALYSIS](02_EXPLORATORY_DATA_ANALYSIS/02b_UNIVARIATE_ANALYSIS)
+4. Learn preprocessing: [03a_MISSING_DATA_HANDLING](03_DATA_PREPROCESSING_AND_ENGINEERING/03a_MISSING_DATA_HANDLING), [03c_SCALING_AND_NORMALIZATION](03_DATA_PREPROCESSING_AND_ENGINEERING/03c_SCALING_AND_NORMALIZATION)
+5. Study ML algorithms: [04a_REGRESSION](04_SUPERVISED_LEARNING/04a_REGRESSION), [04b_CLASSIFICATION](04_SUPERVISED_LEARNING/04b_CLASSIFICATION)
+6. Explore classification algorithms: Logistic Regression, Decision Trees, KNN, SVM, Ensemble Methods
+7. Work on projects: [07a_CLASSIFICATION_PROJECTS](07_PROJECTS/07a_CLASSIFICATION_PROJECTS), [07b_REGRESSION_PROJECTS](07_PROJECTS/07b_REGRESSION_PROJECTS)
+8. Study advanced topics: [05a_DIMENSIONALITY_REDUCTION](05_UNSUPERVISED_LEARNING/05a_DIMENSIONALITY_REDUCTION), [06_OPTIMIZATION_AND_PIPELINES](06_OPTIMIZATION_AND_PIPELINES)
 
 ---
 
@@ -539,8 +508,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter ipython
 
 **Learning Journey in AI/ML & Data Science**
 - **Status:** 🚀 Active Development
-- **Last Updated:** December 31, 2025
+- **Last Updated:** January 2, 2026
 - **Focus:** Comprehensive AI/ML from fundamentals to practical applications
+- **Folder Organization:** Numbered structure (01-10) organized by learning phase
 
 ---
 
