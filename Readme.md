@@ -4,7 +4,7 @@
 
 This repository documents a comprehensive, structured learning journey in **Artificial Intelligence, Machine Learning, and Data Science**. It progresses from fundamental Python concepts through advanced machine learning algorithms to real-world projects, with organized folders covering key topics in data preprocessing, statistical analysis, machine learning algorithms, and practical applications.
 
-**Status:** 🚀 Active Development | **Last Updated:** January 2, 2026
+**Status:** 🚀 Active Development | **Last Updated:** January 17, 2026
 
 ---
 
@@ -508,7 +508,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn plotly jupyter ipython
 
 **Learning Journey in AI/ML & Data Science**
 - **Status:** 🚀 Active Development
-- **Last Updated:** January 2, 2026
+- **Last Updated:** January 17, 2026
 - **Focus:** Comprehensive AI/ML from fundamentals to practical applications
 - **Folder Organization:** Numbered structure (01-10) organized by learning phase
 
